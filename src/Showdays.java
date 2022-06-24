@@ -18,7 +18,7 @@ public class Showdays {
 		}
 		catch(InputMismatchException e)
 		{
-			System.out.println("Please type String");
+			System.out.println("Please type String of weekdays in small letters");
 		}
 		
 		switch (dayname) {

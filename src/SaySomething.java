@@ -6,9 +6,11 @@ public class SaySomething {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Please enter your name");
+		
 		String word = sc.nextLine();
 		
-		System.out.println("Word..."+word);
+		System.out.println("Welcome to git..."+word);
 	}
 
 }
